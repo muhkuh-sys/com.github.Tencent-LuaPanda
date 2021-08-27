@@ -54,7 +54,7 @@ aGroup = strGroup.split('.')
 # Build the path for all artifacts.
 strModulePath = 'targets/jonchki/repository/%s/%s/%s' % ('/'.join(aGroup), strModule, PROJECT_VERSION)
 
-strArtifact = 'Penlight'
+strArtifact = 'LuaPanda'
 
 tArcList = atEnv.DEFAULT.ArchiveList('zip')
 
