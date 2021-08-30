@@ -1,0 +1,1 @@
+- Add the function isConnected() to LuaPanda to check the connection is established.

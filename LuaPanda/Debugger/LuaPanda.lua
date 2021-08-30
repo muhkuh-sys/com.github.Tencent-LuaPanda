@@ -2353,6 +2353,13 @@ function this.changeRunState(s , isFromHooklib)
     variableRefIdx = 1;
 end
 
+
+--- Checks whether a connection is established
+function this.isConnected()
+    return currentRunState ~= runState.DISCONNECT
+end
+
+
 -- 修改协程状态
 -- @s hook标志位
 function this.changeCoroutinesHookState(s)
